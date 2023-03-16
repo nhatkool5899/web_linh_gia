@@ -1,0 +1,134 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
+/*  css variables */
+:root {
+  --card-bg-01: #821417;
+  --card-bg-02: #ec1d25;
+  --card-bg-03: #a11611;
+  --card-bg-04: #2a4e74;
+  --primary-color: #0a1d37;
+  --hero-bg: #d6e5fb;
+  --heading-fontSize: 2rem;
+  --small-text-color: #333;
+  --heading-color: #900;
+  --heading-text-color: #0a1d37;
+}
+
+/* reset browser default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: var(--small-text-color);
+  font-size: 1rem;
+}
+
+h1,
+h2 {
+  font-size: var(--heading-fontSize);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+img{
+  width: 100%;
+}
+
+.section{
+  padding: 60px 0;
+}
+
+
+.section__title{
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.main{
+  padding-bottom: 60px;
+  background: #f4f4f4;
+}
+
+.clear__header{
+  height: 160px;
+}
+
+
+/* Custom */
+
+.slick__print button{
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.slick__print .slide-arrow{
+  position: absolute;
+  top: -10%;
+  margin-top: -15px;
+}
+.slick__print .prev-arrow{
+  right: 50px;
+  width: 32px;
+  height: 32px;
+  background-image: url(../imgs/arr-back.png);
+  background-size: 16px 14px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid var(--card-bg-03);
+}
+.slick__print .next-arrow{
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  background-image: url(../imgs/arr-next.png);
+  background-size: 16px 14px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid var(--card-bg-03);
+}
+
+.slick__print .next-arrow.slick-disabled{
+  opacity: 0.4;
+}
+.slick__print .prev-arrow.slick-disabled{
+  opacity: 0.4;
+}
+
+
+.print__kithuat{
+  margin-top: 60px;
+}

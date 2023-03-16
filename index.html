@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Link cdn -->
+
+    <!-- Slick css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- remix icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Link custom css -->
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <div class="app">
+        <header>
+            <div class="header">
+                <div class="header__top">
+                    <div class="container header__content">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-lg-6 logo">
+                                        <div class="logo__img">
+                                            <img src="./assets/imgs/logo.PNG" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 phone"><span><i class="ri-phone-fill"></i></span> 0779.102.202</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="search__box">
+                                    <input type="text" placeholder="Tìm kiếm" class="search__input">
+                                    <button class="btn__search"><i class="ri-search-line"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__bottom">
+                    <div class="container header__container">
+                        <div class="header__navigation">
+                            <a href="#" class="d-block btn__service">
+                                <div class="header__service">
+                                    <span class="title"><i class="ri-menu-line"></i> DỊCH VỤ IN ẤN</span>
+                                    <span class="icon">
+                                        <i class="ri-arrow-right-s-line icon__show-service active"></i>
+                                        <i class="ri-arrow-down-s-line icon__hide-service"></i>
+                                    </span>
+                                </div>
+                            </a>
+                            <div class="header__menu">
+                                <ul class="header__menu-list">
+                                    <li class="dropdown dropdown-show">
+                                        <a href="#" class="header__menu-item" data-bs-toggle="dropdown">Giới thiệu <i class="ri-arrow-down-s-fill"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Đội ngũ</a></li>
+                                            <li><a class="dropdown-item" href="#">Về chúng tôi</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" class="header__menu-item">Dịch vụ</a></li>
+                                    <li class="dropdown dropdown-show">
+                                        <a href="#" class="header__menu-item">Dự án <i class="ri-arrow-down-s-fill"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Gần đây</a></li>
+                                            <li><a class="dropdown-item" href="#">Nổi bật</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown dropdown-show">
+                                        <a href="#" class="header__menu-item">Kiến thức <i class="ri-arrow-down-s-fill"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Kiến thức in UV</a></li>
+                                            <li><a class="dropdown-item" href="#">Tin tức công ty</a></li>
+                                            <li><a class="dropdown-item" href="#">Tuyển dụng</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" class="header__menu-item">Câu hỏi thường gặp</a></li>
+                                    <li><a href="#" class="header__menu-item">Liên hệ</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="all__service">
+                                <div class="row h-100">
+                                    <div class="col-lg-6 line__left">
+                                        <div class="all__service-title">In kỹ thuật số</div>
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="all__service-item">
+                                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                                    <p>In bạt Hiflex</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="all__service-item">
+                                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-decal-compressed.jpg" alt="">
+                                                    <p>In Decal</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="all__service-item">
+                                                    <img src="https://inan2h.vn/wp-content/uploads/2022/09/in-ky-thua-so-pp-can-mo-logo-compressed.jpg" alt="">
+                                                    <p>In PP</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="all__service-item">
+                                                    <img src="https://inan2h.vn/wp-content/uploads/2022/07/in-backlit-film-compressed.jpg" alt="">
+                                                    <p>In Blacklit Film</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="all__service-item">
+                                                    <img src="https://inan2h.vn/wp-content/uploads/2022/06/in-canvas.jpg" alt="">
+                                                    <p>In Canvas</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="all__service-item">
+                                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                                    <p>In bạt Hiflex</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="all__service-item">
+                                                    <img src="https://inan2h.vn/wp-content/uploads/2022/06/in-hiflex-bang-hieu.jpg" alt="">
+                                                    <p>In bảng hiệu</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="all__service-item">
+                                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                                    <p>In bạt Hiflex</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 line__right">
+                                        <div class="all__service-title">In UV</div>
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="all__service-item">
+                                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                                    <p>In bạt Hiflex</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="all__service-item">
+                                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-decal-compressed.jpg" alt="">
+                                                    <p>In bạt Hiflex</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="all__service-item">
+                                                    <img src="https://inan2h.vn/wp-content/uploads/2022/09/in-ky-thua-so-pp-can-mo-logo-compressed.jpg" alt="">
+                                                    <p>In bạt Hiflex</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="all__service-item">
+                                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                                    <p>In bạt Hiflex</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="all__service-item">
+                                                    <img src="https://inan2h.vn/wp-content/uploads/2022/07/in-pp-trong-nha.jpg" alt="">
+                                                    <p>In bạt Hiflex</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="all__service-item">
+                                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                                    <p>In bạt Hiflex</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="all__service-item">
+                                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                                    <p>In bạt Hiflex</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="all__service-item">
+                                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                                    <p>In bạt Hiflex</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- <div class="clear__header"></div> -->
+        <main class="main">
+            <div class="banner">
+                <div class="container">
+                    <div class="banner__image">
+                        <div class="slick__banner">
+                            <div class="slick__banner-item">
+                                <img src="./assets/imgs/banner-1.jpg" alt="">
+                            </div>
+                            <div class="slick__banner-item">
+                                <img src="./assets/imgs/banner-2.jpg" alt="">
+                            </div>
+                            <div class="slick__banner-item">
+                                <img src="./assets/imgs/banner-3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="banner__slogan">
+                        <h1>
+                            Dịch Vụ In Ấn Chuyên Nghiệp - Công Ty In Ấn Quảng Cáo 2H    
+                        </h1>
+                    </div>
+                </div>
+            </div>
+
+            <section>
+                <div class="container category">
+                    <div class="category__title">Danh mục ấn phẩm</div>
+                    <div class="category__content">
+                        <div class="category__item">
+                            <div class="image">
+                                <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                            </div>
+                            <div class="title">In bạt Hiflex</div>
+                        </div>
+                        <div class="category__item">
+                            <div class="image">
+                                <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-decal-compressed.jpg" alt="">
+                            </div>
+                            <div class="title">In Decal</div>
+                        </div>
+                        <div class="category__item">
+                            <div class="image">
+                                <img src="https://inan2h.vn/wp-content/uploads/2022/09/in-ky-thua-so-pp-can-mo-logo-compressed.jpg" alt="">
+                            </div>
+                            <div class="title">In PPx</div>
+                        </div>
+                        <div class="category__item">
+                            <div class="image">
+                                <img src="https://inan2h.vn/wp-content/uploads/2022/07/in-backlit-film-compressed.jpg" alt="">
+                            </div>
+                            <div class="title">In Blacklit Film</div>
+                        </div>
+                        <div class="category__item">
+                            <div class="image">
+                                <img src="https://inan2h.vn/wp-content/uploads/2022/06/in-canvas.jpg" alt="">
+                            </div>
+                            <div class="title">In Canvas</div>
+                        </div>
+                        <div class="category__item">
+                            <div class="image">
+                                <img src="https://inan2h.vn/wp-content/uploads/2022/06/in-hiflex-bang-hieu.jpg" alt="">
+                            </div>
+                            <div class="title">In bảng hiệu</div>
+                        </div>
+                        <div class="category__item">
+                            <div class="image">
+                                <img src="https://inan2h.vn/wp-content/uploads/2022/07/in-hiflex-bill-board.jpg" alt="">
+                            </div>
+                            <div class="title">In BillBoard</div>
+                        </div>
+                        <div class="category__item">
+                            <div class="image">
+                                <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-uv-cuon-compressed.jpg" alt="">
+                            </div>
+                            <div class="title">In bạt UV</div>
+                        </div>
+                        <div class="category__item">
+                            <div class="image">
+                                <img src="https://inan2h.vn/wp-content/uploads/2022/09/in-ky-thua-so-pp-can-mo-logo-compressed.jpg" alt="">
+                            </div>
+                            <div class="title">In bạt Hiflex</div>
+                        </div>
+                        <div class="category__item">
+                            <div class="image">
+                                <img src="https://inan2h.vn/wp-content/uploads/2022/09/in-ky-thua-so-pp-can-mo-logo-compressed.jpg" alt="">
+                            </div>
+                            <div class="title">In bạt Hiflex</div>
+                        </div>
+                        <div class="category__item">
+                            <div class="image">
+                                <img src="https://inan2h.vn/wp-content/uploads/2022/09/in-ky-thua-so-pp-can-mo-logo-compressed.jpg" alt="">
+                            </div>
+                            <div class="title">In bạt Hiflex</div>
+                        </div>
+                        <div class="category__item">
+                            <div class="image">
+                                <img src="https://inan2h.vn/wp-content/uploads/2022/09/in-ky-thua-so-pp-can-mo-logo-compressed.jpg" alt="">
+                            </div>
+                            <div class="title">In bạt Hiflex</div>
+                        </div>
+                        <div class="category__item">
+                            <div class="image">
+                                <img src="https://inan2h.vn/wp-content/uploads/2022/09/in-ky-thua-so-pp-can-mo-logo-compressed.jpg" alt="">
+                            </div>
+                            <div class="title">In bạt Hiflex</div>
+                        </div>
+                        <div class="category__item">
+                            <div class="image">
+                                <img src="https://inan2h.vn/wp-content/uploads/2022/09/in-ky-thua-so-pp-can-mo-logo-compressed.jpg" alt="">
+                            </div>
+                            <div class="title">In bạt Hiflex</div>
+                        </div>
+                        <div class="category__item">
+                            <div class="image">
+                                <img src="https://inan2h.vn/wp-content/uploads/2022/09/in-ky-thua-so-pp-can-mo-logo-compressed.jpg" alt="">
+                            </div>
+                            <div class="title">In bạt Hiflex</div>
+                        </div>
+                        <div class="category__item">
+                            <div class="image">
+                                <img src="https://inan2h.vn/wp-content/uploads/2022/09/in-ky-thua-so-pp-can-mo-logo-compressed.jpg" alt="">
+                            </div>
+                            <div class="title">In bạt Hiflex</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="print__uv">
+                <div class="container">
+                    <div class="category__title">In UV</div>
+                    <div class="slick__print">
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <section class="print__kithuat">
+                <div class="container">
+                    <div class="category__title">In kỹ thuật số</div>
+                    <div class="slick__print">
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <section class="print__kithuat">
+                <div class="container">
+                    <div class="category__title">IN BẠT HIFLEX</div>
+                    <div class="slick__print">
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <section class="print__kithuat">
+                <div class="container">
+                    <div class="category__title">IN DEcal</div>
+                    <div class="slick__print">
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <section class="print__kithuat">
+                <div class="container">
+                    <div class="category__title">IN PP</div>
+                    <div class="slick__print">
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        <div class="slick__item">
+                            <div class="slick__content">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/08/in-bat-logo-compressed.jpg" alt="">
+                                </div>
+                                <div class="title">In bạt Hiflex</div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <section class="partner">
+                <div class="container">
+                    <div class="partner__content">
+                        <div class="partner__title">Đối tác của chúng tôi</div>
+                        <div class="row partner__list">
+                            <div class="col-lg-2 col-md-3 col-6 p-3">
+                                <div class="partner__item">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/06/img-partner.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-6 p-3">
+                                <div class="partner__item">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/06/logo-shoppee.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-6 p-3">
+                                <div class="partner__item">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/06/logo-vinmart.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-6 p-3">
+                                <div class="partner__item">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/06/logo-dien-may-xanh-1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-6 p-3">
+                                <div class="partner__item">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/06/logo-tp-bank.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-6 p-3">
+                                <div class="partner__item">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/06/logo-fpt-shop.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="feel__customer">
+                            <div class="partner__title">Cảm nhận từ khách hàng</div>
+                            <div class="slick__feel">
+                                <div class="slick__item" style="width:600px">
+                                    <div class="logo">
+                                        <img src="https://inan2h.vn/wp-content/uploads/2022/07/quang-cao-viet.png" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span> <svg width="34" height="27" viewBox="0 0 34 27" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M29.7841 1.62432L29.5007 1.37547L29.1836 1.57951C26.377 3.38516 23.9797 5.99883 21.9842 9.3991L21.9834 9.40045C20.0189 12.7719 19.0201 16.0713 19.0201 19.2919C19.0201 21.7265 19.676 23.6029 21.0959 24.7931C22.4638 25.9398 24.1636 26.5 26.1594 26.5C27.9672 26.5 29.4847 25.8086 30.677 24.4433C31.8816 23.1021 32.5 21.5786 32.5 19.8882C32.5 17.7899 31.9639 16.1404 30.7932 15.0502C29.6911 14.024 28.0377 13.5301 25.9279 13.4795C26.1328 12.7048 26.3483 12.0386 26.5734 11.4784C26.8115 10.886 27.4049 9.95647 28.4014 8.66689C29.4087 7.37317 30.716 6.02152 32.3289 4.61259L32.7589 4.23705L32.33 3.86035L29.7841 1.62432ZM11.2639 1.62432L10.9806 1.37547L10.6634 1.57951C7.85686 3.38516 5.4596 5.99883 3.4641 9.3991L3.46332 9.40045C1.4988 12.7719 0.5 16.0713 0.5 19.2919C0.5 21.7265 1.15582 23.6029 2.57574 24.7931C3.94367 25.9398 5.64346 26.5 7.63929 26.5C9.44713 26.5 10.9646 25.8086 12.1569 24.4433C13.3615 23.1021 13.9799 21.5786 13.9799 19.8882C13.9799 17.7899 13.4438 16.1404 12.2731 15.0502C11.1715 14.0244 9.51903 13.5305 7.41063 13.4796C7.61359 12.7351 7.82776 12.0691 8.05259 11.4804C8.32746 10.8466 8.94146 9.89788 9.93186 8.6163C10.9052 7.35685 12.1952 6.0221 13.8088 4.61259L14.2387 4.23705L13.8098 3.86035L11.2639 1.62432Z" stroke="#AFAFAF"></path> </svg> </span>
+                                        <span class="px-4">Quảng Cáo Việt</span>
+                                        <span> 
+                                            <svg width="34" height="27" viewBox="0 0 34 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.21594 25.3757L4.49928 25.6245L4.81642 25.4205C7.623 23.6148 10.0203 21.0012 12.0158 17.6009L12.0166 17.5996C13.9811 14.2281 14.9799 10.9287 14.9799 7.70807C14.9799 5.27347 14.324 3.39709 12.9041 2.20687C11.5362 1.06025 9.83641 0.5 7.84058 0.5C6.03275 0.5 4.51534 1.1914 3.32296 2.55667C2.11835 3.89792 1.5 5.42141 1.5 7.1118C1.5 9.2101 2.03605 10.8596 3.20677 11.9498C4.30886 12.976 5.96231 13.4699 8.07207 13.5205C7.86724 14.2952 7.6517 14.9614 7.42656 15.5216C7.1885 16.114 6.59514 17.0435 5.59863 18.3331C4.59129 19.6268 3.28403 20.9785 1.67107 22.3874L1.24114 22.7629L1.67005 23.1397L4.21594 25.3757ZM22.7361 25.3757L23.0194 25.6245L23.3366 25.4205C26.1431 23.6148 28.5404 21.0012 30.5359 17.6009L30.5367 17.5996C32.5012 14.2281 33.5 10.9287 33.5 7.70807C33.5 5.27347 32.8442 3.39709 31.4243 2.20687C30.0563 1.06025 28.3565 0.5 26.3607 0.5C24.5529 0.5 23.0354 1.19141 21.8431 2.55671C20.6385 3.89795 20.0201 5.42142 20.0201 7.1118C20.0201 9.2101 20.5562 10.8596 21.7269 11.9498C22.8285 12.9756 24.481 13.4695 26.5894 13.5204C26.3864 14.2649 26.1722 14.9309 25.9474 15.5196C25.6725 16.1534 25.0585 17.1021 24.0681 18.3837C23.0948 19.6432 21.8048 20.9779 20.1912 22.3874L19.7613 22.7629L20.1902 23.1397L22.7361 25.3757Z" stroke="#AFAFAF"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="name">CÔNG TY CỔ PHẦN SX TM & DV QUẢNG CÁO VIỆT</div>
+                                    <div class="content">Sử dụng dịch vụ in kỹ thuật số tại in ấn quảng cáo 2H giúp tôi có những sản phẩm chất lượng để làm quà tặng cho đối tác và khách hàng. Tiến độ hoàn thành sản phẩm cực kỳ nhanh có thể in ấn trên mọi chất liệu.</div>
+                                </div>
+
+                                <div class="slick__item" style="width:600px">
+                                    <div class="logo">
+                                        <img src="https://inan2h.vn/wp-content/uploads/2022/07/mia-agency.png" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span> <svg width="34" height="27" viewBox="0 0 34 27" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M29.7841 1.62432L29.5007 1.37547L29.1836 1.57951C26.377 3.38516 23.9797 5.99883 21.9842 9.3991L21.9834 9.40045C20.0189 12.7719 19.0201 16.0713 19.0201 19.2919C19.0201 21.7265 19.676 23.6029 21.0959 24.7931C22.4638 25.9398 24.1636 26.5 26.1594 26.5C27.9672 26.5 29.4847 25.8086 30.677 24.4433C31.8816 23.1021 32.5 21.5786 32.5 19.8882C32.5 17.7899 31.9639 16.1404 30.7932 15.0502C29.6911 14.024 28.0377 13.5301 25.9279 13.4795C26.1328 12.7048 26.3483 12.0386 26.5734 11.4784C26.8115 10.886 27.4049 9.95647 28.4014 8.66689C29.4087 7.37317 30.716 6.02152 32.3289 4.61259L32.7589 4.23705L32.33 3.86035L29.7841 1.62432ZM11.2639 1.62432L10.9806 1.37547L10.6634 1.57951C7.85686 3.38516 5.4596 5.99883 3.4641 9.3991L3.46332 9.40045C1.4988 12.7719 0.5 16.0713 0.5 19.2919C0.5 21.7265 1.15582 23.6029 2.57574 24.7931C3.94367 25.9398 5.64346 26.5 7.63929 26.5C9.44713 26.5 10.9646 25.8086 12.1569 24.4433C13.3615 23.1021 13.9799 21.5786 13.9799 19.8882C13.9799 17.7899 13.4438 16.1404 12.2731 15.0502C11.1715 14.0244 9.51903 13.5305 7.41063 13.4796C7.61359 12.7351 7.82776 12.0691 8.05259 11.4804C8.32746 10.8466 8.94146 9.89788 9.93186 8.6163C10.9052 7.35685 12.1952 6.0221 13.8088 4.61259L14.2387 4.23705L13.8098 3.86035L11.2639 1.62432Z" stroke="#AFAFAF"></path> </svg> </span>
+                                        <span class="px-4">Quảng Cáo Việt</span>
+                                        <span> 
+                                            <svg width="34" height="27" viewBox="0 0 34 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.21594 25.3757L4.49928 25.6245L4.81642 25.4205C7.623 23.6148 10.0203 21.0012 12.0158 17.6009L12.0166 17.5996C13.9811 14.2281 14.9799 10.9287 14.9799 7.70807C14.9799 5.27347 14.324 3.39709 12.9041 2.20687C11.5362 1.06025 9.83641 0.5 7.84058 0.5C6.03275 0.5 4.51534 1.1914 3.32296 2.55667C2.11835 3.89792 1.5 5.42141 1.5 7.1118C1.5 9.2101 2.03605 10.8596 3.20677 11.9498C4.30886 12.976 5.96231 13.4699 8.07207 13.5205C7.86724 14.2952 7.6517 14.9614 7.42656 15.5216C7.1885 16.114 6.59514 17.0435 5.59863 18.3331C4.59129 19.6268 3.28403 20.9785 1.67107 22.3874L1.24114 22.7629L1.67005 23.1397L4.21594 25.3757ZM22.7361 25.3757L23.0194 25.6245L23.3366 25.4205C26.1431 23.6148 28.5404 21.0012 30.5359 17.6009L30.5367 17.5996C32.5012 14.2281 33.5 10.9287 33.5 7.70807C33.5 5.27347 32.8442 3.39709 31.4243 2.20687C30.0563 1.06025 28.3565 0.5 26.3607 0.5C24.5529 0.5 23.0354 1.19141 21.8431 2.55671C20.6385 3.89795 20.0201 5.42142 20.0201 7.1118C20.0201 9.2101 20.5562 10.8596 21.7269 11.9498C22.8285 12.9756 24.481 13.4695 26.5894 13.5204C26.3864 14.2649 26.1722 14.9309 25.9474 15.5196C25.6725 16.1534 25.0585 17.1021 24.0681 18.3837C23.0948 19.6432 21.8048 20.9779 20.1912 22.3874L19.7613 22.7629L20.1902 23.1397L22.7361 25.3757Z" stroke="#AFAFAF"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="name">CÔNG TY CỔ PHẦN SX TM & DV QUẢNG CÁO VIỆT</div>
+                                    <div class="content">Sử dụng dịch vụ in kỹ thuật số tại in ấn quảng cáo 2H giúp tôi có những sản phẩm chất lượng để làm quà tặng cho đối tác và khách hàng. Tiến độ hoàn thành sản phẩm cực kỳ nhanh có thể in ấn trên mọi chất liệu.</div>
+                                </div>
+
+                                <div class="slick__item" style="width:600px">
+                                    <div class="logo">
+                                        <img src="https://inan2h.vn/wp-content/uploads/2023/02/thietbiyteminhhiep.png" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span> <svg width="34" height="27" viewBox="0 0 34 27" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M29.7841 1.62432L29.5007 1.37547L29.1836 1.57951C26.377 3.38516 23.9797 5.99883 21.9842 9.3991L21.9834 9.40045C20.0189 12.7719 19.0201 16.0713 19.0201 19.2919C19.0201 21.7265 19.676 23.6029 21.0959 24.7931C22.4638 25.9398 24.1636 26.5 26.1594 26.5C27.9672 26.5 29.4847 25.8086 30.677 24.4433C31.8816 23.1021 32.5 21.5786 32.5 19.8882C32.5 17.7899 31.9639 16.1404 30.7932 15.0502C29.6911 14.024 28.0377 13.5301 25.9279 13.4795C26.1328 12.7048 26.3483 12.0386 26.5734 11.4784C26.8115 10.886 27.4049 9.95647 28.4014 8.66689C29.4087 7.37317 30.716 6.02152 32.3289 4.61259L32.7589 4.23705L32.33 3.86035L29.7841 1.62432ZM11.2639 1.62432L10.9806 1.37547L10.6634 1.57951C7.85686 3.38516 5.4596 5.99883 3.4641 9.3991L3.46332 9.40045C1.4988 12.7719 0.5 16.0713 0.5 19.2919C0.5 21.7265 1.15582 23.6029 2.57574 24.7931C3.94367 25.9398 5.64346 26.5 7.63929 26.5C9.44713 26.5 10.9646 25.8086 12.1569 24.4433C13.3615 23.1021 13.9799 21.5786 13.9799 19.8882C13.9799 17.7899 13.4438 16.1404 12.2731 15.0502C11.1715 14.0244 9.51903 13.5305 7.41063 13.4796C7.61359 12.7351 7.82776 12.0691 8.05259 11.4804C8.32746 10.8466 8.94146 9.89788 9.93186 8.6163C10.9052 7.35685 12.1952 6.0221 13.8088 4.61259L14.2387 4.23705L13.8098 3.86035L11.2639 1.62432Z" stroke="#AFAFAF"></path> </svg> </span>
+                                        <span class="px-4">Quảng Cáo Việt</span>
+                                        <span> 
+                                            <svg width="34" height="27" viewBox="0 0 34 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.21594 25.3757L4.49928 25.6245L4.81642 25.4205C7.623 23.6148 10.0203 21.0012 12.0158 17.6009L12.0166 17.5996C13.9811 14.2281 14.9799 10.9287 14.9799 7.70807C14.9799 5.27347 14.324 3.39709 12.9041 2.20687C11.5362 1.06025 9.83641 0.5 7.84058 0.5C6.03275 0.5 4.51534 1.1914 3.32296 2.55667C2.11835 3.89792 1.5 5.42141 1.5 7.1118C1.5 9.2101 2.03605 10.8596 3.20677 11.9498C4.30886 12.976 5.96231 13.4699 8.07207 13.5205C7.86724 14.2952 7.6517 14.9614 7.42656 15.5216C7.1885 16.114 6.59514 17.0435 5.59863 18.3331C4.59129 19.6268 3.28403 20.9785 1.67107 22.3874L1.24114 22.7629L1.67005 23.1397L4.21594 25.3757ZM22.7361 25.3757L23.0194 25.6245L23.3366 25.4205C26.1431 23.6148 28.5404 21.0012 30.5359 17.6009L30.5367 17.5996C32.5012 14.2281 33.5 10.9287 33.5 7.70807C33.5 5.27347 32.8442 3.39709 31.4243 2.20687C30.0563 1.06025 28.3565 0.5 26.3607 0.5C24.5529 0.5 23.0354 1.19141 21.8431 2.55671C20.6385 3.89795 20.0201 5.42142 20.0201 7.1118C20.0201 9.2101 20.5562 10.8596 21.7269 11.9498C22.8285 12.9756 24.481 13.4695 26.5894 13.5204C26.3864 14.2649 26.1722 14.9309 25.9474 15.5196C25.6725 16.1534 25.0585 17.1021 24.0681 18.3837C23.0948 19.6432 21.8048 20.9779 20.1912 22.3874L19.7613 22.7629L20.1902 23.1397L22.7361 25.3757Z" stroke="#AFAFAF"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="name">CÔNG TY CỔ PHẦN SX TM & DV QUẢNG CÁO VIỆT</div>
+                                    <div class="content">Sử dụng dịch vụ in kỹ thuật số tại in ấn quảng cáo 2H giúp tôi có những sản phẩm chất lượng để làm quà tặng cho đối tác và khách hàng. Tiến độ hoàn thành sản phẩm cực kỳ nhanh có thể in ấn trên mọi chất liệu.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="news">
+                <div class="container">
+                    <div class="partner__title">Tin tức và sự kiện</div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="news__new">
+                                <div class="image">
+                                    <img src="https://inan2h.vn/wp-content/uploads/2022/09/anh-khai-truong-in-an-quang-cao-2h-1.jpg" alt="">
+                                </div>
+                                <div class="news__new-title">Xưởng In Ấn Quảng Cáo Theo Yêu Cầu Giá Rẻ Tại TPHCM</div>
+                                <div class="news__new-category">Tin tức mới</div>
+                                <div class="news__new-desc">Để có thể sở hữu những sản phẩm in ấn chất lượng, đem đến hiệu quả như mong muốn khi sử dụng thì việc tìm kiếm một địa chỉ in...</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="news__hot">
+                                <div class="news__hot-item">
+                                    <div class="image">
+                                        <img src="https://inan2h.vn/wp-content/uploads/2022/07/in-uv-phang-3-compressed-400x267.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <div class="news__hot-title">Báo Giá In UV Phẳng Lấy Nhanh Chất Lượng Nhất Hiện Nay</div>
+                                        <div class="news__hot-category">Tin Tức In UV</div>
+                                        <div class="news__hot-desc">In cuộn UV đang là phương pháp giúp doanh nghiệp có thể tiết kiệm được chi phí in ấn mà vẫn đảm bảo</div>
+                                    </div>
+                                </div>
+                                <div class="news__hot-item">
+                                    <div class="image">
+                                        <img src="https://inan2h.vn/wp-content/uploads/2022/07/in-uv-phang-3-compressed-400x267.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <div class="news__hot-title">Báo Giá In UV Phẳng Lấy Nhanh Chất Lượng Nhất Hiện Nay</div>
+                                        <div class="news__hot-category">Tin Tức In UV</div>
+                                        <div class="news__hot-desc">In cuộn UV đang là phương pháp giúp doanh nghiệp có thể tiết kiệm được chi phí in ấn mà vẫn đảm bảo</div>
+                                    </div>
+                                </div>
+                                <div class="news__hot-item">
+                                    <div class="image">
+                                        <img src="https://inan2h.vn/wp-content/uploads/2022/07/in-uv-phang-3-compressed-400x267.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <div class="news__hot-title">Báo Giá In UV Phẳng Lấy Nhanh Chất Lượng Nhất Hiện Nay</div>
+                                        <div class="news__hot-category">Tin Tức In UV</div>
+                                        <div class="news__hot-desc">In cuộn UV đang là phương pháp giúp doanh nghiệp có thể tiết kiệm được chi phí in ấn mà vẫn đảm bảo</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news__body mt-4 mb-4">
+                        <div class="news__hot-item">
+                            <div class="image">
+                                <img src="https://inan2h.vn/wp-content/uploads/2022/07/in-uv-phang-3-compressed-400x267.jpg" alt="">
+                            </div>
+                            <div>
+                                <div class="news__hot-title">Báo Giá In UV Phẳng Lấy Nhanh Chất Lượng Nhất Hiện Nay</div>
+                                <div class="news__hot-category">Tin Tức In UV</div>
+                                <div class="news__hot-desc">In cuộn UV đang là phương pháp giúp doanh nghiệp có thể tiết kiệm được chi phí in ấn mà vẫn đảm bảo</div>
+                            </div>
+                        </div>
+                        <div class="news__hot-item">
+                            <div class="image">
+                                <img src="https://inan2h.vn/wp-content/uploads/2022/07/in-uv-phang-3-compressed-400x267.jpg" alt="">
+                            </div>
+                            <div>
+                                <div class="news__hot-title">Báo Giá In UV Phẳng Lấy Nhanh Chất Lượng Nhất Hiện Nay</div>
+                                <div class="news__hot-category">Tin Tức In UV</div>
+                                <div class="news__hot-desc">In cuộn UV đang là phương pháp giúp doanh nghiệp có thể tiết kiệm được chi phí in ấn mà vẫn đảm bảo</div>
+                            </div>
+                        </div>
+                        <div class="news__hot-item">
+                            <div class="image">
+                                <img src="https://inan2h.vn/wp-content/uploads/2022/07/in-uv-phang-3-compressed-400x267.jpg" alt="">
+                            </div>
+                            <div>
+                                <div class="news__hot-title">Báo Giá In UV Phẳng Lấy Nhanh Chất Lượng Nhất Hiện Nay</div>
+                                <div class="news__hot-category">Tin Tức In UV</div>
+                                <div class="news__hot-desc">In cuộn UV đang là phương pháp giúp doanh nghiệp có thể tiết kiệm được chi phí in ấn mà vẫn đảm bảo</div>
+                            </div>
+                        </div>
+                        <div class="news__hot-item">
+                            <div class="image">
+                                <img src="https://inan2h.vn/wp-content/uploads/2022/07/in-uv-phang-3-compressed-400x267.jpg" alt="">
+                            </div>
+                            <div>
+                                <div class="news__hot-title">Báo Giá In UV Phẳng Lấy Nhanh Chất Lượng Nhất Hiện Nay</div>
+                                <div class="news__hot-category">Tin Tức In UV</div>
+                                <div class="news__hot-desc">In cuộn UV đang là phương pháp giúp doanh nghiệp có thể tiết kiệm được chi phí in ấn mà vẫn đảm bảo</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="container footer__container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 ft__column">
+                            <div class="ft__logo">
+                                <img src="https://inan2h.vn/wp-content/themes/hazo/assets/images/logo-white.png" alt="">
+                            </div>
+                            <div class="ft__name">CÔNG TY TNHH IN ẤN QUẢNG CÁO 2H</div>
+                            <p>Chi Nhánh 1: 55 Đường 4, Khu Đô Thị Vạn Phúc , P. Hiệp Bình Phước, TP. Thủ Đức, TP. Hồ Chí Minh</p>
+                            <p>Chi Nhánh 2: 55 Đường 4, Khu Đô Thị Vạn Phúc , P. Hiệp Bình Phước, TP. Thủ Đức, TP. Hồ Chí Minh</p>
+                            <p>Mã số thuế (Tax Code): 0317335580 do Sở kế hoạch và đầu tư TPHCM cấp ngày 10/06/2022</p>
+                            <div class="ft__desc">Dịch vụ kinh doanh: in ấn các loại.</div>
+                            <p>Email: inanquangcao2h@gmail.com</p>
+                            <p>Điện thoại: 0779.102.202 – 0707.102.202</p>
+                            <div class="box__social">
+                                <a href="#"><i class="ri-facebook-circle-line"></i></a>
+                                <a href="#"><i class="ri-messenger-line"></i></a>
+                                <a href="#"><i class="ri-youtube-line"></i></a>
+                                <a href="#"><i class="ri-twitter-line"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2 col-6 ft__column">
+                            <div class="ft__title">Liên kết nhanh</div>
+                            <div><a href="#" class="ft__links">Giới thiệu</a></div>
+                            <div><a href="#" class="ft__links">Dịch vụ</a></div>
+                            <div><a href="#" class="ft__links">Sản phẩm</a></div>
+                            <div><a href="#" class="ft__links">Câu hỏi thường gặp</a></div>
+                            <div><a href="#" class="ft__links">Liên hệ</a></div>
+                        </div>
+                        <div class="col-lg-2 col-6 ft__column">
+                            <div class="ft__title">Chính sách</div>
+                            <div><a href="#" class="ft__links">Quy định sử dụng</a></div>
+                            <div><a href="#" class="ft__links">Chính sách đỏi trả</a></div>
+                            <div><a href="#" class="ft__links">Chính sách bảo mật</a></div>
+                            <div><a href="#" class="ft__links">Chính sách bảo hành</a></div>
+                            <div><a href="#" class="ft__links">Chính sách vận chuyển</a></div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 ft__column">
+                            <div class="ft__title">Đăng ký tư vấn</div>
+                            <form action="" class="info__form">
+                                <input type="text" placeholder="Họ tên">
+                                <input type="text" placeholder="Email">
+                                <input type="text" placeholder="Số điện thoại">
+                                <button class="btn__submit">Gửi</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- Link cdn -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- Js custom -->
+    <script src="./assets/js/main.js"></script>
+
+    <script>
+
+        $('.slick__banner').slick({
+            slidesToShow: 1,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
+        });
+
+        $('.slick__print').slick({
+            arrows: true,
+            infinite: false,
+            speed: 600,
+            slidesToShow: 6,
+            slidesToScroll: 5,
+            prevArrow: '<button class="slide-arrow prev-arrow"></button>',
+            nextArrow: '<button class="slide-arrow next-arrow"></button>',
+            responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                slidesToShow: 4,
+                slidesToScroll: 3,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                slidesToShow: 3,
+                slidesToScroll: 2,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+                }
+            }
+            ]
+        }); 
+
+
+        
+        $('.slick__feel').slick({
+            centerMode: true,
+            slidesToShow: 1,
+            dots:true,
+            variableWidth: true,
+            responsive: [
+                {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1
+                }
+                },
+                {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1
+                }
+                }
+            ]
+        });
+    </script>
+
+    <script>
+        $('.dropdown-show').hover(function(){
+            $(this).find('.dropdown-menu').toggleClass('show')
+        })
+
+        $('.btn__service').click(function (){
+            $('.all__service').toggleClass('show')
+            $('.icon__show-service').toggleClass('active')
+            $('.icon__hide-service').toggleClass('active')
+        })
+    </script>
+</body>
+</html>
